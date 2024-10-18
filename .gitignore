@@ -4,15 +4,78 @@
 /node_modules
 /.pnp
 .pnp.js
+/.yarn/cache
+/.yarn/build-state.yml
+/.yarn/install-state.gz
+
+# production
+/build
+/dist
+/.next
+/out
 
 # testing
 /coverage
+/jest.config.js
+/test-results
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.*.backup
+.cache
+.vscode
+/.idea
 
-npm-debug.log*
+# static files
+/public/*.ico
+/public/*.png
+/public/*.jpg
+/public/*.gif
+/public/*.svg
+
+# fonts
+/src/fonts/*.otf
+/src/fonts/*.ttf
+
+# compiled output
+/src/**/*.css
+/src/**/*.map
+
+# specific to web3
+/src/web3/contractabi.json
+
+# sqlite database files
+/*.db
+/*.sqlite
+/*.sqlite3
+
+# expo specific
+.expo
+.expo-shared
+
+# firebase specific
+.firebase
+firebase-debug.log
+.firebaserc
+
+# Ignore build artifacts
+/server/public/android-chrome-*.png
+/server/public/css/*.css
+/server/public/js/*.js
+
+# git specific
+.git/
+*.lock
+.gitignore
+LICENSE
